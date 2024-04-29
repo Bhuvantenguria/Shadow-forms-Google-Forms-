@@ -1,0 +1,48 @@
+/* centerTab.css */
+
+.center-tabs {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.center-tabs__container {
+  display: flex;
+  justify-content: center;
+  position: relative; 
+}
+
+.childTab {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 0 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.childTab:hover {
+  color: #3c18f0; 
+}
+
+.childTab::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #007bff; 
+  transition: width 0.3s ease-in-out;
+}
+
+.childTab:focus::after,
+.childTab:active::after {
+  width: 100%;
+}
+
+.childTab:nth-child(1) {
+  margin-left: 0;
+}
+
+.childTab:nth-child(2) {
+  margin-right: 0;
+}

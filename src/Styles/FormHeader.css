@@ -1,0 +1,39 @@
+/* FormHeader.css */
+
+.form_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f3f4f6;
+  border-bottom: 1px solid #ccc;
+}
+
+.form_header_left {
+  display: flex;
+  align-items: center;
+}
+
+.form_header_right {
+  display: flex;
+  align-items: center;
+}
+
+.form_name {
+  margin-left: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.form_header_icon {
+  font-size: 24px;
+  color: #555;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* Additional styles for specific icons */
+.form_header_icon:hover {
+  color: #007bff; /* Change color on hover */
+}

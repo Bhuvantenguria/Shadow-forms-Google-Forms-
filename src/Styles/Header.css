@@ -1,0 +1,55 @@
+/* Header.css */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(45deg,  #449dd8 ,#4eb8c8); /* Gradient background */
+    padding: 10px 20px;
+    color: #fff; /* Text color */
+  }
+  
+  .header-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-info img {
+    margin-right: 20px;
+  }
+  /* Header.css */
+.header-info h2 {
+    margin: 0; /* Remove default margin */
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #fff; /* Text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add text shadow */
+  }
+  
+  
+  
+  .header-search {
+    display: flex;
+    align-items: center;
+    border: 2px solid #fff;  /* Border color */
+    padding: 5px;
+    border-radius: 20px;
+  }
+  
+  /* Header.css */
+.header-search input {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff; /* Text color */
+    margin-left: 10px;
+    width: 500px; /* Adjust the width as needed */
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-right .MuiIconButton-root {
+    margin-right: 10px;
+  }
+  
